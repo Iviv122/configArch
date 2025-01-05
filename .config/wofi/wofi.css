@@ -1,0 +1,22 @@
+*{
+border:none;
+}
+window{
+	margin: 5px;
+	font-family: "Roboto Mono Medium";
+	background-color: rgba(50,50,50,1);
+	color: white;
+}
+#input{
+
+	background-color: rgba(50,50,50,1);
+	color: white;
+	border: none;
+}
+#entry:selected{
+	background-color: gray;
+}
+#text:selected{
+	color: white;
+}
+
