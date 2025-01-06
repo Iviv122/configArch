@@ -19,7 +19,7 @@
         "network",
         "power-profiles-daemon",
         "disk",
-	"cpu",
+	    "cpu",
         "memory",
         "temperature",
         "battery",
