@@ -1,12 +1,12 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    font-family: monospace;
     font-size: 13px;
 }
 
 window#waybar {
     background-color: rgba(6, 7, 13, 0.5);
-    border-bottom: 3px solid rgba(100, 114, 125, 0.5);
+    background: linear-gradient(61deg, rgba(156,32,96,1) 0%, rgba(76,77,151,1) 100%);
     color: #97cde2;
     transition-property: background-color;
     transition-duration: .5s;
