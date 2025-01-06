@@ -5,10 +5,8 @@ Background - Hyprpaper
 App launcher - wofi
 File Manager - dolphin
 Terminal - kitty
-Fonts - Nerd Font, Fira Code
-Splash screen - Plymouth
-Grub screen loader - https://github.com/shvchk/fallout-grub-theme
-Screenshot taker = hyprshot
+Fonts - Nerd Font, Fira Code, amazing font
+Screenshot taker = grim
 
 
 Hotkeys of wm are closer to BSPWM and I3 than Hyprland
