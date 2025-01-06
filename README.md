@@ -1,6 +1,7 @@
 System - Arch
 Window Manager - Hyprland
 Bar - Waybar
+Background - Hyprpaper
 App launcher - wofi
 File Manager - dolphin
 Terminal - kitty,alacritty
