@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/van/config/assets/wallpaper.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#06070D",
+        "foreground": "#97cde2",
+        "cursor": "#97cde2"
+    },
+    "colors": {
+        "color0": "#06070D",
+        "color1": "#2E4772",
+        "color2": "#9C2060",
+        "color3": "#C43352",
+        "color4": "#265999",
+        "color5": "#4C4D97",
+        "color6": "#C24AA0",
+        "color7": "#97cde2",
+        "color8": "#698f9e",
+        "color9": "#2E4772",
+        "color10": "#9C2060",
+        "color11": "#C43352",
+        "color12": "#265999",
+        "color13": "#4C4D97",
+        "color14": "#C24AA0",
+        "color15": "#97cde2"
+    }
+}
