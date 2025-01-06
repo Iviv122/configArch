@@ -42,7 +42,7 @@ button:hover {
 
 /* you can set a style on hover for any module like this */
 #pulseaudio:hover {
-    background-color: #524A4E;
+    background-color: #97cde2;
     color: white;
 }
 
@@ -89,7 +89,7 @@ button:hover {
 #mpd {
     padding: 0 10px;
     color: #9C2060;
-    background: #4C4D97; 
+    background-color: #97cde2; 
 }
 
 #window,
@@ -135,37 +135,37 @@ label:focus {
 }
 
 #cpu {
-    background-color: #524A4E;
+    background-color: #97cde2;
 }
 
 #power-profiles-daemon
 {
-    background-color: #524A4E;
+    background-color: #97cde2;
 }
 
 
 #memory {
-    background-color: #524A4E;
+    background-color: #97cde2;
 }
 
 #disk {
-    background-color: #524A4E;
+    background-color: #97cde2;
 }
 
 #backlight {
-    background-color: #524A4E;
+    background-color: #97cde2;
 }
 
 #network {
-    background-color: #524A4E;
+    background-color: #97cde2;
 }
 
 #network.disconnected {
-    background-color: #524A4E;
+    background-color: #97cde2;
 }
 
 #pulseaudio {
-    background-color: #524A4E;
+    background-color: #97cde2;
     color: white;
 }
 
@@ -198,7 +198,7 @@ label:focus {
 }
 
 #temperature {
-    background-color: #524A4E;
+    background-color: #97cde2;
 }
 
 #temperature.critical {
@@ -206,7 +206,7 @@ label:focus {
 }
 
 #tray {
- background-color: #524A4E;
+ background-color: #97cde2;
 
 }
 
@@ -254,7 +254,7 @@ label:focus {
 }
 
 #keyboard-state {
-    background: #524A4E;
+    background: #97cde2;
     color: white;
     padding: 0 0px;
     margin: 0 5px;
