@@ -12,27 +12,27 @@
 }
 
 window {
-    background-color: #7C818C;
+    background-color: #06070D;
 }
 
 #input {
     margin: 5px;
     border-radius: 0px;
     border: none;
-    border-bottom: 3px solid black;
-    background-color: #383C4A;
-    color: white;
+    border-bottom: 3px solid #9C2060;
+    background-color: #06070D;
+    color: #97cde2
 }
 
 #inner-box {
-    background-color: #383C4A;
+    background-color: #06070D;
 
 }
 
 #outer-box {
     margin: 5px;
     padding:20px;
-    background-color: #383C4A;
+    background-color: #06070D;
 }
 
 #scroll {
@@ -40,11 +40,11 @@ window {
 
 #text {
 padding: 5px;
-color: white;
+color: #97cde2;
 }
 
 #entry:nth-child(even){
-    background-color: #404552;
+    background-color: #06070D;
 }
 
 #entry:selected {
