@@ -89,7 +89,7 @@ button:hover {
 
     /* random(75)+45 */
     padding: 0 10px;
-    color:  #06070D;
+    color: linear-gradient(128deg, rgba(0,0,0,1) 28%, rgba(195,226,238,1) 100%); 
     background: rgb(156,32,96);
     background: linear-gradient(45deg, rgba(156,32,96,1) 0%, rgba(38,89,153,1) 100%); 
 }
