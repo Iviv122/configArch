@@ -1,6 +1,9 @@
 [[ $- != *i* ]] && return
 alias clean="clear"
 
+(cat ~/.cache/wal/sequences &)
+source ~/.cache/wal/colors-tty.sh
+
 alias vi='vim'
 
 alias l='ls'
