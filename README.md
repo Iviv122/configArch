@@ -8,3 +8,4 @@ Terminal - kitty,alacritty
 Fonts - Nerd Font, Fira Code
 Splash screen - Plymouth
 Grub screen loader - https://github.com/shvchk/fallout-grub-theme
+Screenshot taker = hyprshot
