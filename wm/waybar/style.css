@@ -7,7 +7,7 @@
 window#waybar {
     background-color: rgba(6, 7, 13, 0.5);
     color: #97cde2;
-    border: 10px solid transparent;
+    border-bottom: 2px solid transparent;
 border-image: linear-gradient(61deg, rgba(156,32,96,1) 0%, rgba(76,77,151,1) 100%);
     transition-property: background-color;
     transition-duration: .5s;
