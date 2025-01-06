@@ -6,6 +6,7 @@
 
 window#waybar {
     background: linear-gradient(45deg, rgba(156, 32, 96, 1) 0%, rgba(38, 89, 153, 1) 100%);
+    background-color: #06070D;
     color: #97cde2;
     border-bottom: 2px solid transparent;
     border-image: linear-gradient(61deg, rgba(156,32,96,1) 0%, rgba(76,77,151,1) 100%);
