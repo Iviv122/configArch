@@ -173,3 +173,67 @@ label:focus {
     background-color: #0069d4;
 }
 
+#waybar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(45deg, rgba(156, 32, 96, 1) 0%, rgba(38, 89, 153, 1) 100%);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/* Style each Waybar module (e.g., clock, battery, CPU, etc.) */
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#wireplumber,
+#custom-media,
+#tray,
+#mode,
+#idle_inhibitor,
+#scratchpad,
+#power-profiles-daemon,
+#mpd {
+    padding: 0 10px;
+    margin: 0 5px; /* Space between elements */
+    color: rgba(0, 0, 0, 1); /* Text color */
+    background: inherit; /* Inherit gradient background from the parent */
+    position: relative; /* Allow gradient to flow behind */
+    z-index: 1;
+}
+
+/* Ensure the gradient is continuous across elements by using a pseudo-element */
+#clock::before,
+#battery::before,
+#cpu::before,
+#memory::before,
+#disk::before,
+#temperature::before,
+#backlight::before,
+#network::before,
+#pulseaudio::before,
+#wireplumber::before,
+#custom-media::before,
+#tray::before,
+#mode::before,
+#idle_inhibitor::before,
+#scratchpad::before,
+#power-profiles-daemon::before,
+#mpd::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit; /* Inherit the background gradient */
+    z-index: -1; /* Place the pseudo-element behind the content */
+}
