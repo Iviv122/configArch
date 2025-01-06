@@ -1,0 +1,22 @@
+*{
+border:none;
+}
+window{
+	margin: 5px;
+	font-family: "Roboto Mono Medium";
+	background-color: #06070D;
+	color: #9C2060;
+}
+#input{
+
+	background-color: #06070D;
+	color: #9C2060;
+	border: none;
+}
+#entry:selected{
+	background-color: #9C2060;
+}
+#text:selected{
+	color: #9C2060;
+}
+
