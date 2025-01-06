@@ -43,7 +43,6 @@ button:hover {
 /* you can set a style on hover for any module like this */
 #pulseaudio:hover {
     background-color: #97cde2;
-    color: white;
 }
 
 #workspaces button {
@@ -88,8 +87,8 @@ button:hover {
 #power-profiles-daemon,
 #mpd {
     padding: 0 10px;
-    color: #9C2060;
-    background-color: #97cde2; 
+    color:  #97cde2;
+    background-color: #9C2060; 
 }
 
 #window,
@@ -132,133 +131,6 @@ button:hover {
 
 label:focus {
     background-color: #000000;
-}
-
-#cpu {
-    background-color: #97cde2;
-}
-
-#power-profiles-daemon
-{
-    background-color: #97cde2;
-}
-
-
-#memory {
-    background-color: #97cde2;
-}
-
-#disk {
-    background-color: #97cde2;
-}
-
-#backlight {
-    background-color: #97cde2;
-}
-
-#network {
-    background-color: #97cde2;
-}
-
-#network.disconnected {
-    background-color: #97cde2;
-}
-
-#pulseaudio {
-    background-color: #97cde2;
-    color: white;
-}
-
-#pulseaudio.muted {
-    background-color: #90b1b1;
-    color: #2a5c45;
-}
-
-#wireplumber {
-    background-color: #fff0f5;
-    color: #000000;
-}
-
-#wireplumber.muted {
-    background-color: #f53c3c;
-}
-
-#custom-media {
-    background-color: #66cc99;
-    color: #2a5c45;
-    min-width: 100px;
-}
-
-#custom-media.custom-spotify {
-    background-color: #66cc99;
-}
-
-#custom-media.custom-vlc {
-    background-color: #ffa000;
-}
-
-#temperature {
-    background-color: #97cde2;
-}
-
-#temperature.critical {
-    background-color: #eb4d4b;
-}
-
-#tray {
- background-color: #97cde2;
-
-}
-
-#tray > .passive {
-    -gtk-icon-effect: dim;
-}
-
-#tray > .needs-attention {
-    -gtk-icon-effect: highlight;
-    background-color: #eb4d4b;
-}
-
-#idle_inhibitor {
-    background-color: #2d3436;
-}
-
-#idle_inhibitor.activated {
-    background-color: #ecf0f1;
-    color: #2d3436;
-}
-
-#mpd {
-    background-color: #66cc99;
-    color: #2a5c45;
-}
-
-#mpd.disconnected {
-    background-color: #f53c3c;
-}
-
-#mpd.stopped {
-    background-color: #90b1b1;
-}
-
-#mpd.paused {
-    background-color: #51a37a;
-}
-
-#language {
-    background: #ecf0f100;
-    color: #740864;
-    padding: 0 5px;
-    margin: 0 5px;
-    min-width: 16px;
-}
-
-#keyboard-state {
-    background: #97cde2;
-    color: white;
-    padding: 0 0px;
-    margin: 0 5px;
-    min-width: 16px;
 }
 
 #keyboard-state > label {
