@@ -1,5 +1,6 @@
 *{
 border:none;
+font-family: "Roboto Mono Medium";
 }
 window{
 	margin: 5px;
@@ -10,7 +11,7 @@ window{
 #input{
 
 	background-color: #06070D;
-	color: #9C2060;
+	color: #c3e2ee;
 	border: none;
 }
 #entry:selected{
