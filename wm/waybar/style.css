@@ -92,7 +92,15 @@ button:hover {
     color: rgba(0,0,0,1);
     background-color: inherit;
 }
-
+window#waybar {
+    background-color: rgba(6, 7, 13, 0.5);
+    color: #97cde2;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(61deg, rgba(156,32,96,1) 0%, rgba(76,77,151,1) 100%);
+    border-image-slice: 1;    
+    transition-property: background-color;
+    transition-duration: .5s;
+}
 #window,
 #workspaces {
     margin: 0 4px;
@@ -109,46 +117,13 @@ button:hover {
 }
 
 
-@keyframes blink {
-    to {
-        background-color: #ffffff;
-        color: #000000;
-    }
-}
-
-/* Using steps() instead of linear as a timing function to limit cpu usage */
-#battery.critical:not(.charging) {
-    background-color: #f53c3c;
-    animation-name: blink;
-    animation-duration: 0.5s;
-    animation-timing-function: steps(12);
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
 #power-profiles-daemon {
     padding-right: 15px;
 }
 
 
-label:focus {
-    background-color: #000000;
-}
-
 #keyboard-state > label {
     padding: 0 5px;
-}
-
-#keyboard-state > label.locked {
-    background: rgba(0, 0, 0, 0.2);
-}
-
-#scratchpad {
-    background: rgba(0, 0, 0, 0.2);
-}
-
-#scratchpad.empty {
-	background-color: transparent;
 }
 
 #privacy {
@@ -158,26 +133,4 @@ label:focus {
 #privacy-item {
     padding: 0 5px;
     color: white;
-}
-
-#privacy-item.screenshare {
-    background-color: #cf5700;
-}
-
-#privacy-item.audio-in {
-    background-color: #1ca000;
-}
-
-#privacy-item.audio-out {
-    background-color: #0069d4;
-}
-
-window#waybar {
-    background-color: rgba(6, 7, 13, 0.5);
-    color: #97cde2;
-    border-bottom: 2px solid transparent;
-    border-image: linear-gradient(61deg, rgba(156,32,96,1) 0%, rgba(76,77,151,1) 100%);
-    border-image-slice: 1;    
-    transition-property: background-color;
-    transition-duration: .5s;
 }
