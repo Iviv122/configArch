@@ -86,9 +86,12 @@ button:hover {
 #scratchpad,
 #power-profiles-daemon,
 #mpd {
+
+    /* random(75)+45 */
     padding: 0 10px;
     color:  #97cde2;
-    background-color: #9C2060; 
+    background: rgb(156,32,96);
+    background: linear-gradient(random(75deg)+45deg, rgba(156,32,96,1) 0%, rgba(38,89,153,1) 100%); 
 }
 
 #window,
